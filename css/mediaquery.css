@@ -1,0 +1,76 @@
+/* Tablet Screen */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightgray;
+    }
+
+    .nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+    .nav .icon-header {
+        display: none;
+    }
+
+    .dest-txt {
+        flex-direction: row;
+    }
+
+    .dest-cards {
+        flex-direction: row;
+    }
+
+    .contact-box {
+        width: 50%;
+
+        border-radius: 2rem;
+    }
+
+    .tour-card-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+ 
+    }
+
+}
+
+
+/* Desktop Screen */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+    .nav .icon-header {
+        display: none;
+    }
+
+    .dest-txt {
+        flex-direction: row;
+    }
+
+    .abt-us-container {
+        flex-direction: row;
+    }
+
+    .abt-us-img {
+        width: 60rem;
+        height: 40rem;
+    }
+
+    .contact .big-heading{
+    
+        font-size: 7rem;
+    }
+
+    .tour-card-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr ;
+ 
+    }
+
+}
